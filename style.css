@@ -1,0 +1,1282 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.hero-section {
+  padding-top: 30px;
+  padding-bottom: 60px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 122, 0, 0.32) 0%,
+    rgba(255, 255, 255, 0.12) 100%
+  );
+}
+
+
+.container001 {
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 1300px;
+    margin: auto;
+}
+
+
+.section-1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.hero-image {
+    width: 380px;
+    padding-top: 88px;
+}
+
+.container-left {
+    width: 520px;
+}
+.left-heading {
+  font-family: Raleway;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 50px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-top: 45px;
+}
+.left-heading2 {
+  font-family: Noto Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.container-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-heading {
+    font-family: Noto Sans;
+font-size: 15px;
+font-weight: 600;
+line-height: 20.43px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.form-para {
+    font-family: Noto Sans;
+font-size: 10px;
+font-weight: 400;
+line-height: 15px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+/* .form-signup {
+    font-family: Noto Sans;
+font-size: 12px;
+font-weight: 600;
+line-height: 16.34px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.form-login {
+    font-family: Noto Sans;
+font-size: 10px;
+font-weight: 500;
+line-height: 13.62px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+} */
+
+
+
+.form-login .form-login-button {
+    color: rgba(255, 122, 0, 1);
+    background: white;
+    border: none;
+}
+
+
+.inner-right-container {
+    width: 429px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+.name{
+    width: 49%;
+
+}
+.lastname{
+    width: 49%;
+
+}
+.business-name{
+    width: 100%;
+
+}
+.email-user{
+    width: 100%;
+
+}
+.phone-number{
+    width: 100%;
+
+}
+
+
+
+.inner-right-container {
+    width: 429px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px; 
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.07);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.right-heading {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px; 
+    font-weight: 600;
+    margin-bottom: 20px; 
+}
+
+
+.artlink-form input {
+    
+    padding: 12px; 
+    margin-bottom: 15px; 
+    font-size: 14px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-family: 'Noto Sans';
+}
+
+
+.form-para {
+    font-family: 'Noto Sans';
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 20px; 
+}
+
+
+.form-signup {
+    width: 50%; 
+    padding: 12px; 
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px; 
+    font-weight: 600;
+    background-color: rgba(255, 122, 0, 1); 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    
+}
+
+.form-login {
+    font-family: 'Noto Sans';
+    font-size: 12px;
+    text-align: center;
+    margin-top: 15px; 
+}
+
+.form-login-button {
+    color: rgba(255, 122, 0, 1); 
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+/* ---------------------section 2--------------------------- */
+
+
+h1.second-heading1 {
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37.57px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+
+h3.second-heading2 {
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.job-boxes {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 80%;
+    margin: auto;
+    
+}
+
+
+
+
+.second-box-1 {
+    border: 1px solid rgba(233, 233, 233, 1);
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+    width: 32%;
+    padding: 20px 25px 15px;
+}
+.part-1 {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+h3.container1-heading {
+    font-family: Noto Sans;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 21.79px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #212121;
+    height: 51px;
+}
+
+
+img.container1-img {
+    width: 17px;
+    height: 17px;
+}
+
+
+
+.part-2 {
+    display: flex;
+    justify-content: left;
+    column-gap: 10px;
+    align-items: center;
+    border-bottom: 1px solid #E9E9E9;
+    height: 70px;
+    flex-wrap: wrap;
+}
+
+img.aavaz-img {
+    width: 39px;
+}
+
+img.vector-7 {
+    width: 9px;
+    height: 15px;
+}
+
+img.img-money {
+    width: 10px;
+    height: 15px;
+}
+
+
+.part3 {
+    display: flex;
+    column-gap: 10px;
+    padding: 10px 0px 10px;
+    flex-wrap: wrap;
+}
+
+img.img-view-details {
+    width: 9px;
+}
+
+
+
+
+.part4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 11px;
+    flex-wrap: wrap;
+}
+
+p.awaaz-img {
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #A5A5A5;
+}
+.part3-1 {
+    display: flex;
+    column-gap: 10px;
+    padding: 0px 0px 10px;
+    flex-wrap: wrap;
+}
+
+p.para-b2b {
+    font-family: Noto Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16.34px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #212121;
+    border-radius: 100px;
+    background-color: #d0e1d0;
+    padding: 2px 10px;
+}
+
+p.details {
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.07px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FF7A00;
+}
+
+.btn.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 40px;
+    padding-top: 60px;
+    padding-bottom: 90px;
+    flex-wrap: wrap;
+}
+button.register-btn {
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.79px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    border: none;
+    background-color: #FF7A00;
+    padding: 15px 55px;
+    border-radius: 4px;
+}
+button.connect-us-btn {
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.79px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FF7A00;
+    background-color: #FFFFFF;
+    border: 1px solid #FF9534;
+    padding: 14px 80px;
+    border-radius: 4px;
+}
+
+p.para-jaipur {
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.34px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+p.para-money {
+    font-family: Noto Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.34px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.third-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+.third-box01 {
+    background-image: url(/artlink-images/creative_skills\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 260px;
+    height: 260px;
+    border-radius: 50px;
+    padding: 20px 30px;
+}
+
+
+.third-box02 {
+    background-image: url(/artlink-images/Globe_SouthAsia_Terra-512\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    height: 260px;
+    align-items: center;
+    border-radius: 50px;
+    padding: 20px 30px;
+}
+
+
+
+.third-box03 {
+    background-image: url(/artlink-images/Rectangle\ 38\ \(1\).png  );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 326px;
+    height: 260px;
+    border-radius: 50px;
+    padding: 20px 30px;
+}
+
+.third-box04 {
+    background-image: url(/artlink-images/graph-analysis-business-growth-transparent-free-png\ \(1\).png  );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 450px;
+    height: 260px;
+    border-radius: 50px;
+    padding: 20px 30px;
+}
+
+
+.third-box05 {
+    background-image: url(/artlink-images/Rectangle\ 39\ \(1\).png );
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 462px;
+    height: 260px;
+    border-radius: 50px;
+    padding: 20px 30px;
+}
+
+img.group-img {
+    width: 100px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding-top: 20px;
+}
+
+p.numbers {
+    font-family: Noto Sans;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 87.17px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-top: 18px;
+}
+
+p.main-head ,p.main-head-2,p.main-head-3 ,p.main-head-4 ,p.main-head-5 {
+     
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.18px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding-top: 4px;
+    padding-bottom: 14px;
+    
+}
+
+p.main-head{
+    color: #EDBE00;
+
+}
+
+p.main-head-2{
+    color: #E7632B;
+
+}
+p.main-head-3{
+    color: #454586;
+
+}
+p.main-head-4{
+    color: #86AF42;
+
+}
+
+p.main-head-5{
+    color: #00A3C8;
+
+}
+
+
+.flex-group-container {
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.flex-btn-account {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+button.create-account-btn {
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.79px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    background-color: #FF7A00;
+    border: none;
+    border-radius: 4px;
+    padding: 15px 35px;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+p.main-para {
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+
+
+.fourth-section {
+    background-image: url(/artlink-images/Rectangle\ 43\ \(1\).png);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.flex-fourth-section {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+h1.subscribe {
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 46.96px;
+    text-align: left;
+    color: black;
+    padding-bottom: 20px;
+}
+
+
+.fourth-left {
+    width: 39%;
+}
+
+
+p.terms-and-conditions {
+    font-family: Noto Sans;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17.71px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+
+
+p.newsletter {
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: black;
+    padding-bottom: 60px;
+}
+
+p.earning ,p.community{
+    font-family: Noto Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FF7A00;
+}
+p.amount,p.artists-number {
+    font-family: Noto Sans;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 54.48px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #FF7A00;
+}
+img.camera ,img.group-001{
+    width: 75px;
+    height: 75px;
+}
+.fourth-right {
+    width: 39%;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+input.my-input-box {
+    border: 1px solid #212121;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 15px 246px 15px 25px;
+    border-radius: 12px;
+}
+
+
+
+.right-container-1 {
+    display: flex;
+    background-color: #ffff;
+    border-radius: 40px;
+    padding: 37px 50px 37px 50px;
+    justify-content: space-between;
+    
+}
+
+.right-container-2 {
+    display: flex;
+    background-color: #ffff;
+    border-radius: 40px;
+    padding: 37px 50px 37px 50px;
+    justify-content: space-between;
+}
+
+h1.industry-experts {
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37.57px;
+    text-align: center;
+    
+    color: #212121;
+   padding-top: 100px;
+   padding-bottom: 40px;
+}
+img.my-scroll-images {
+    margin-left: 50px;
+    height: 60px;
+    width: 60px;
+    
+}
+.scrollbar-section{
+    padding-bottom: 100px;
+}
+img.job-image {
+    width: 521px;
+    height: 348px;
+}
+.job-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.job-portal {
+    background-color: #FFF7EF;
+    padding-top: 40px;
+}
+h1.job-heading {
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37px;
+    text-align: center;
+    color: #FF7A00;
+    
+}
+p.job-paragraph {
+    font-family: Noto Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    width: 70%;
+    margin-top: 20px;
+}
+
+button.job-button {
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.79px;
+    text-align: center;
+    
+    color: #FF7A00;
+    background-color: #ffff;
+    border: 1px solid #FF9534;
+    padding: 10px 113px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+
+.header-container1 {
+    width: 100%;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+.header-flex {
+    display: flex;
+}
+
+.left-header {
+    display: flex;
+    gap: 50px;
+}
+img.artlink-logo {
+    width: 150px;
+    
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.anchor-pages {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+   
+}
+a.b2b-anchor ,a.hire-talent-anchor , a.plans-pricing-anchor {
+
+
+    font-family: Noto Sans;
+    font-size: 12px;
+    font-weight: 400;
+   
+    text-align: left;
+    text-decoration: none;
+    color: #000000;
+}
+button.login-button {
+    font-family: Noto Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.34px;
+    text-align: center;
+    color: #E76A27;
+    border: 1px solid #E76A27;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    padding: 5px 18px 5px 18px;
+}
+
+i.fas.fa-bars.menu-icon {
+    display: none;
+}
+
+/* .menu-container {
+   
+    display: none;
+    
+} */
+
+.menu-container {
+    display: none;
+    
+   
+}
+
+.menu-icon {
+    font-size: 2rem;
+    cursor: pointer;
+   
+}
+i.fas.fa-bars.menu-icon {
+    color: #FF7A00;
+}
+
+
+
+/* Menu Styles */
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /* position: absolute; */
+    top: 40px; /* Position below the icon */
+    right: 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+
+.menu li {
+    padding: 10px 20px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+.menu li a:hover {
+    background-color: #f0f0f0;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* responsive */
+
+@media (max-width: 1200px){
+    
+   
+    .right-container-1, .right-container-2 {
+        padding: 20px 20px 20px 20px;
+        justify-content: center;
+        gap: 15px;
+        align-items: center;
+    }
+    input.my-input-box {
+        
+        padding: 15px 190px 15px 25px;
+        
+    }
+    p.amount, p.artists-number {
+        
+        font-size: 30px;
+        
+    }
+    img.camera, img.group-001 {
+        width: 50px;
+        height: 50px;
+    }
+    p.earning, p.community {
+       
+        font-size: 15px;
+       
+    }
+    p.newsletter {
+        padding-bottom: 35px;
+    }
+
+
+
+}
+
+/* --------------------------------------------------------------tablet--------------------------------------------- */
+@media (max-width: 1024px){
+    .inner-right-container {
+        width: 375px;
+    }
+    .container-left {
+        width: 370px;
+    }
+
+    h3.container1-heading {
+       
+        font-size: 14px;
+    }
+
+    
+}
+@media (max-width: 992px){
+    .section-1 {
+        justify-content: space-around;
+        gap: 10px;
+    }
+
+    .inner-right-container {
+        width: 300px;
+    }
+    .container-left {
+        width: 300px;
+    }
+    .hero-image {
+        
+        padding-top: 30px;
+    }
+
+    .job-boxes {
+        flex-wrap: wrap;
+    }
+    .second-box-1 {
+        min-width: 260px;
+    }
+
+    .third-box01,.third-box02,.third-box03 ,.third-box04,.third-box05 {
+        
+        max-width: 260px;
+        max-height: 260px;
+    }
+    p.numbers {
+        
+        font-size: 50px;
+    }
+    p.main-head, p.main-head-2, p.main-head-3, p.main-head-4, p.main-head-5 {
+        
+        font-size: 20px;
+
+    }
+    p.main-para {
+       
+        font-size: 13px;
+    }
+
+    .flex-fourth-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .fourth-left {
+       
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    h1.subscribe {
+        text-align: center;
+    }
+    p.newsletter {
+        text-align: center;
+    }
+    p.terms-and-conditions {
+        text-align: center;
+    }
+
+    .fourth-right {
+        width: 50%;
+        
+    }
+    
+
+    
+}
+
+/* ---------------------------------mobile----------------------------------------------------------------------------------- */
+
+
+@media (max-width: 768px){
+
+    .section-1 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .container-left {
+        width: 100%;
+        justify-items: center;
+    }
+    .inner-right-container {
+        width: 90%;
+        margin-top: 25px;
+    }
+
+    
+    .left-heading {
+        margin-top: 0px;
+        text-align: center;
+    }
+    .btn.container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .hero-section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        
+    
+    }
+    .btn.container {
+        
+        padding-top: 35px;
+        padding-bottom: 50px;
+        
+    }
+    button.register-btn {
+        
+        padding: 15px 20px;
+    }
+    button.connect-us-btn {
+        padding: 14px 41px;
+    }
+    .fourth-left {
+       
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    h1.subscribe {
+        text-align: center;
+    }
+    p.newsletter {
+        text-align: center;
+    }
+    p.terms-and-conditions {
+        text-align: center;
+    }
+    .right-container-1 ,.right-container-2{
+        
+        flex-direction: column;
+    }
+
+    i.fas.fa-bars.menu-icon {
+        display: unset;
+    }
+    .anchor-pages{
+        display: none;
+    }
+    /* .menu-container {
+        display: unset;
+    } */
+
+    
+
+    .menu-container.active {
+        display: block; /* Show the menu when active */
+        visibility: visible; /* Make it visible */
+        height: auto; /* Adjust height to fit content */
+    }
+
+    .menu {
+        position: absolute;
+        top: 50px; /* Adjust as per your layout */
+        right: 0;
+        width: auto;
+        background: white;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+    }
+   
+}
+
+
+
+@media (max-width: 575px){
+
+    .left-heading {
+        
+        font-size: 22px;
+        
+        line-height: 30px;
+        
+    }
+    .left-heading2 {
+        
+        font-size: 12px;
+        line-height: 20px;
+        
+    }
+    .hero-image {
+        width: 250px;
+       
+    }
+    .name {
+        width: 100%;
+    }
+    .lastname {
+        width: 100%;
+    }
+
+    .container-left {
+        justify-items: center;
+    }
+    .right-heading {
+        font-size: 16px;
+        
+    }
+    .form-para {
+        font-size: 10px;
+        
+    }
+    .form-signup {
+        font-size: 12px;
+    }
+    .form-login {
+       font-size: 10px;
+    }
+
+    .artlink-form input {
+        font-size: 10px;
+
+    }
+    h1.second-heading1 {
+        
+        font-size: 22px;
+      
+        line-height: 30px;
+        
+    }
+    h3.second-heading2 {
+        
+        font-size: 12px;
+        
+        line-height: 20px;
+        
+    }
+    button.register-btn {
+        
+        font-size: 12px;
+        
+    }
+    button.connect-us-btn {
+       
+        font-size: 12px;
+    }
+    button.create-account-btn {
+        font-size: 13px;
+        padding: 15px 20px;
+        margin-top: 28px;
+        margin-bottom: 50px;
+    }
+    p.numbers {
+        font-size: 40px;
+    }
+    p.main-head, p.main-head-2, p.main-head-3, p.main-head-4, p.main-head-5 {
+        font-size: 16px;
+    }
+    p.main-para {
+        font-size: 11px;
+    }
+    h1.subscribe {
+       
+        font-size: 22px;
+        line-height: 30px;
+    }
+    p.newsletter {
+        
+        font-size: 12px;
+       
+        line-height: 20px;
+        
+    }
+    .fourth-section {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        
+    }
+    p.terms-and-conditions {
+        
+        font-size: 11px;
+        
+        line-height: 15px;
+        
+    }
+    
+    p.amount, p.artists-number {
+        font-size: 17px;
+        text-align: center;
+    }
+    p.earning, p.community {
+        font-size: 13px;
+    }
+    img.camera, img.group-001 {
+        width: 40px;
+        height: 40px;
+    }
+    .right-container-1, .right-container-2 {
+        padding: 6px 6px 6px 6px;
+        justify-content: center;
+        gap: 5px;
+        align-items: center;
+    }
+    input.my-input-box {
+        padding: 15px 25px 15px 25px;
+    }
+    .fourth-right {
+        width: 70%;
+    }
+    h1.industry-experts {
+       
+        font-size: 22px;
+        
+        line-height: 20px;
+        padding-top: 40px;
+       
+    }
+    .scrollbar-section {
+        padding-bottom: 40px;
+    }
+    ul.menu {
+        width: 119px;
+    }
+    .second-box-1 {
+        min-width: 100%;
+    }
+}
